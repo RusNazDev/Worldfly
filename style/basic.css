@@ -1,0 +1,42 @@
+/* ===== Fonts ===== */
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&display=swap');
+
+
+/* font-family: 'DM Sans', sans-serif; */
+
+/* ===== Colors ===== */
+
+:root{
+    --main-color: #2A3950;;
+    --main-second-color: #009394;;
+    --main-therd-color: #fff;
+    --main-fourth-color: #006270;;
+}
+
+/* ===== Basic style ===== */
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    /* 1 rem = 10 px */
+}
+.container{
+    max-width: 162rem;
+    margin: 0 auto;
+}
+button{
+    border: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
