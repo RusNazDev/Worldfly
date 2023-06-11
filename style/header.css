@@ -267,10 +267,6 @@ header{
     display: block;
     cursor: pointer;
 }
-.from > form > input:last-child{
-    width: 20px;
-    height: 20px;
-}
 .from > form > .label_text{
     font-family: 'Segoe UI';
     font-style: normal;
@@ -278,7 +274,6 @@ header{
     font-size: 2.2rem;
     line-height: 2.9rem;
     color: var(--main-second-color);
-    margin-top: 1.5rem;
 }
 .go_come > .img{
     width: 25px;
@@ -298,7 +293,7 @@ header{
     margin-top: 4rem;
     margin-bottom: 5px;
 }
-.go_come > .to > form > input{
+.go_come > .to > form > input:first-child{
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: 600;
@@ -309,6 +304,7 @@ header{
     background: var(--main-therd-color);
     border: 1px solid var(--main-color);
     border-radius: 1rem;
+    cursor: pointer;
 }
 .from_to > .departure > p{
     font-family: 'Segoe UI';
@@ -328,10 +324,11 @@ header{
     line-height: 2.8rem;
     color: var(--main-color);
     width: 29rem;
-    padding: 2rem 0rem 2rem 2rem;
+    padding: 2rem 2rem;
     background: var(--main-therd-color);
     border: 1px solid var(--main-color);
     border-radius: 1rem;
+    cursor: pointer;
 }
 .from_to > .guests > p{
     font-family: 'Segoe UI';
@@ -354,6 +351,7 @@ header{
     background: var(--main-therd-color);
     border: 1px solid var(--main-color);
     border-radius: 1rem;
+    cursor: pointer;
 }
 .from_to > button{
     font-family: 'Segoe UI';
